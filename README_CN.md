@@ -4,6 +4,18 @@
 
 ## 在 ZCode 里安装（现在就能装，不用等审核）
 
+**方式 A —— CDN 市场（任何网络都能用，包括 github.com 被屏蔽的环境）：**
+
+在 **插件市场 → 添加 → 添加插件市场** 粘贴：
+
+```
+https://cdn.jsdelivr.net/gh/forrestneo/jev-sim@main/marketplace-cdn.json
+```
+
+添加后 **个人 → forrestneo-jev-sim → jev-sim → 安装**。
+
+**方式 B —— 直接添加本 GitHub 仓库：**
+
 1. 打开 **插件市场 → 添加 → 添加插件市场**
 2. 粘贴本仓库地址：`https://github.com/forrestneo/jev-sim`
 3. 添加后在 **个人 → forrestneo-jev-sim → jev-sim → 安装**

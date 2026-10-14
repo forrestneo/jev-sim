@@ -4,10 +4,22 @@ Jev-style typed decisions (Choice / Noul / Score) simulated on the **ZCode sessi
 
 > 用 ZCode 会话内的大模型模拟 Jev 式类型化决策：选择 / 真假概率 / 量规评分。零外部 API、零密钥、数据不出本机。[中文说明](./README_CN.md)
 
-## Install in ZCode (works today, no review queue)
+## Install in ZCode
+
+**Option A — CDN marketplace (works everywhere, including networks where github.com is blocked):**
+
+Paste this URL in **Plugin Marketplace → Add → Add Plugin Marketplace**:
+
+```
+https://cdn.jsdelivr.net/gh/forrestneo/jev-sim@main/marketplace-cdn.json
+```
+
+Then **Personal → forrestneo-jev-sim → jev-sim → Install**.
+
+**Option B — this GitHub repository directly:**
 
 1. Open **Plugin Marketplace → Add → Add Plugin Marketplace**
-2. Paste this repository URL: `https://github.com/forrestneo/jev-sim`
+2. Paste: `https://github.com/forrestneo/jev-sim`
 3. Add it, then find **Personal → forrestneo-jev-sim → jev-sim → Install**
 4. In a new task, select the jev-sim skill in the composer and hand it a judgment question:
 

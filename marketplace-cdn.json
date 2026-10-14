@@ -1,0 +1,46 @@
+{
+  "name": "forrestneo-jev-sim",
+  "description": "Community marketplace for the jev-sim ZCode plugin (jsDelivr CDN distribution)",
+  "owner": { "name": "forrestneo", "url": "https://github.com/forrestneo" },
+  "plugins": [
+    {
+      "name": "jev-sim",
+      "version": "0.2.0",
+      "displayName": "jev-sim",
+      "displayName_i18n": {
+        "en": "jev-sim",
+        "zh-CN": "决策模拟"
+      },
+      "description": "Jev-style decision simulation on the session model: Choice/Noul/Score typed decisions with rotation debiasing, an explicit NONE outlet, three-state output, and temperature-scaling calibration",
+      "description_i18n": {
+        "en": "Jev-style decision simulation on the session model: Choice/Noul/Score typed decisions with rotation debiasing, an explicit NONE outlet, three-state output, and temperature-scaling calibration",
+        "zh-CN": "用会话内大模型模拟 Jev 决策模型：Choice/Noul/Score 类型化决策，轮转去偏差、NONE 出口、三态输出、温度缩放校准"
+      },
+      "author": { "name": "forrestneo" },
+      "category": "developer-tools",
+      "keywords": [
+        "jev",
+        "decision-model",
+        "choice",
+        "noul",
+        "score",
+        "calibration",
+        "routing",
+        "classification",
+        "probability"
+      ],
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://cdn.jsdelivr.net/gh/forrestneo/jev-sim@v0.2.0/dist/jev-sim-0.2.0.zip",
+        "sha256": "f104073730e5a482c19634c0c62f03eb350d43d39d371986d9113fe57f867e19",
+        "path": "jev-sim"
+      },
+      "_artifact": {
+        "path": "dist/jev-sim-0.2.0.zip",
+        "sha256": "f104073730e5a482c19634c0c62f03eb350d43d39d371986d9113fe57f867e19",
+        "size": 19707
+      }
+    }
+  ]
+}
