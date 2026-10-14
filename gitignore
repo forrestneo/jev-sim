@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+plugins/jev-sim/scripts/calibration.json
+.DS_Store
